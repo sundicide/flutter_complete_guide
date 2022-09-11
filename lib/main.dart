@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp());
-}
+// void main() {
+//   runApp(MyApp());
+// }
+
+// Same Expression with Upper
+void main() => (runApp(MyApp()));
 
 class MyApp extends StatelessWidget {
   @override
